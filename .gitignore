@@ -1,0 +1,101 @@
+# General
+*.log
+*.tmp
+*.lock
+.env
+.env.*.local
+.env.local.php
+
+# Node dependencies (Vue.js)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Build outputs
+dist/
+public/build/
+public/hot
+storage/logs/
+storage/framework/cache/
+storage/framework/sessions/
+storage/framework/testing/
+storage/framework/views/
+storage/debugbar/
+vendor/
+
+# Laravel specific
+composer.lock
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+yarn.lock
+.env
+.env.testing
+.env.example
+.env.backup
+.env.local
+
+# MySQL
+*.sql
+*.sql.gz
+*.sqlite
+database/*.sqlite
+database/*.sqlite3
+
+# Redis
+redis_dump.rdb
+dump.rdb
+
+# Celery
+celerybeat-schedule
+*.pid
+*.sock
+
+# IDEs and Editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# PHPUnit
+phpunit.xml
+phpunit.xml.dist
+.phpunit.result.cache
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# JetBrains IDEs (e.g., PhpStorm, WebStorm)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Coverage Reports
+coverage/
+.coverage
+.php_cs.cache
+.phpunit.result.cache
+
+# Cache and temp
+.cache/
+tmp/
+temp/
+
+# Laravel Ignored Folders
+storage/
+storage/logs/
+storage/framework/
+bootstrap/cache/
+
+# Misc
+.env.*
+*.swp
+*~
