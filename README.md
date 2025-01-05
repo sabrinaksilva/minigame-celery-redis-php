@@ -10,5 +10,6 @@ To complete an order, you will need a bit of (mental) memory to memorize the cus
 and assemble it, relying on your memory to select the customer's choices from among almost a hundred other 
 dishes you will have available.
 
-## Installation, pictures, architecture, etc...
-I will do it pretty soon, I promise.
+# Prototype
+A part of the game would look something near this:
+![EXAMPLE.png](App/public/images/EXAMPLE.png)
