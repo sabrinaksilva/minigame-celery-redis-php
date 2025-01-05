@@ -1,7 +1,5 @@
-# Restaurant minigame
-
+# Memory Chef - Mini game
 My goal with this project is to implement messaging with Celery, using Redis as its broker.
-
 It also came in handy that I was learning PHP at the time, so...
 
 # The game
@@ -10,6 +8,9 @@ To complete an order, you will need a bit of (mental) memory to memorize the cus
 and assemble it, relying on your memory to select the customer's choices from among almost a hundred other 
 dishes you will have available.
 
+# Messaging architecture
+![diagram.png](App/public/diagram.png)
+
 # Prototype
 A part of the game would look something near this:
-![EXAMPLE.png](App/public/images/EXAMPLE.png)
+![background_EXAMPLE.png](App/public/images/background_images/background_EXAMPLE.png)
